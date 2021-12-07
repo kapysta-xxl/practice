@@ -1,0 +1,123 @@
+.icon-dashboard{
+    display: inline-block;
+    mask: url('/src/images/dashboard.svg') 50% 50% no-repeat;
+    -webkit-mask: url('/src/images/dashboard.svg') 50% 50% no-repeat;
+    width: 20px;
+    height: 20px;
+}
+
+.icon-customers{
+    display: inline-block;
+    mask: url('/src/images/costomers.svg') 50% 50% no-repeat;
+    -webkit-mask: url('/src/images/costomers.svg') 50% 50% no-repeat;
+    width: 20px;
+    height: 20px;
+}
+
+.icon-products{
+    display: inline-block;
+    mask: url('/src/images/products.svg') 50% 50% no-repeat;
+    -webkit-mask: url('/src/images/products.svg') 50% 50% no-repeat;
+    width: 20px;
+    height: 20px;
+}
+
+.icon-account{
+    display: inline-block;
+    mask: url('/src/images/account.svg') 50% 50% no-repeat;
+    -webkit-mask: url('/src/images/account.svg') 50% 50% no-repeat;
+    width: 20px;
+    height: 20px;
+}
+
+.icon-settings{
+    display: inline-block;
+    mask: url('/src/images/settings.svg') 50% 50% no-repeat;
+    -webkit-mask: url('/src/images/settings.svg') 50% 50% no-repeat;
+    width: 20px;
+    height: 20px;
+}
+
+.icon-login{
+    display: inline-block;
+    mask: url('/src/images/login.svg') 50% 50% no-repeat;
+    -webkit-mask: url('/src/images/login.svg') 50% 50% no-repeat;
+    width: 20px;
+    height: 20px;
+}
+
+.icon-register{
+    display: inline-block;
+    mask: url('/src/images/register.svg') 50% 50% no-repeat;
+    -webkit-mask: url('/src/images/register.svg') 50% 50% no-repeat;
+    width: 20px;
+    height: 20px;
+}
+
+.icon-error{
+    display: inline-block;
+    mask: url('/src/images/error.svg') 50% 50% no-repeat;
+    -webkit-mask: url('/src/images/error.svg') 50% 50% no-repeat;
+    width: 20px;
+    height: 20px;
+}
+
+.icon-buy-pro{
+    display: inline-block;
+    mask: url('/src/images/buy-pro.svg') 50% 50% no-repeat;
+    -webkit-mask: url('/src/images/buy-pro.svg') 50% 50% no-repeat;
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    color: #fff;
+}
+
+.icon-location{
+    display: inline-block;
+    mask: url('/src/images/location-arrow.svg') 50% 50% no-repeat;
+    -webkit-mask: url('/src/images/location-arrow.svg') 50% 50% no-repeat;
+    width: 12px;
+    height: 12px;
+    background-color: #6B7280;
+    color: #6B7280;
+}
+
+.icon-export{
+    display: inline-block;
+    mask: url('/src/images/export.svg') 50% 50% no-repeat;
+    -webkit-mask: url('/src/images/export.svg') 50% 50% no-repeat;
+    width: 20px;
+    height: 20px;
+    background-color: $blue;
+    color: $blue;
+}
+
+.icon-import{
+    display: inline-block;
+    mask: url('/src/images/import.svg') 50% 50% no-repeat;
+    -webkit-mask: url('/src/images/import.svg') 50% 50% no-repeat;
+    width: 20px;
+    height: 20px;
+    background-color: $blue;
+    color: $blue;
+}
+
+.icon-prev{
+    display: inline-block;
+    mask: url('/src/images/prev-page.svg') 50% 50% no-repeat;
+    -webkit-mask: url('/src/images/prev-page.svg') 50% 50% no-repeat;
+    width: 20px;
+    height: 20px;
+    background-color: #6B7280;
+    color: #6B7280;
+}
+
+.icon-next{
+    display: inline-block;
+    mask: url('/src/images/next-page.svg') 50% 50% no-repeat;
+    -webkit-mask: url('/src/images/next-page.svg') 50% 50% no-repeat;
+    width: 20px;
+    height: 20px;
+    background-color: #6B7280;
+    color: #6B7280;
+}

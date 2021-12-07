@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<script defer src="index.bundle.js"></script><link href="index.css" rel="stylesheet"></head>
+<body>
+
+    <section class="section-customers">
+        <aside class="sidebar sidebar--sticky">
+            <ul class="sidebar-menu">
+                <li class="sidebar-menu__item">
+                    <a href="#" class="sidebar-menu__link" rel="noreferrer noopener">
+                        <span class="icon-dashboard sidebar-menu__icon"></span>
+                        <span class="sidebar-menu__link-text">Dashboard</span>
+                    </a>
+                </li>
+                <li class="sidebar-menu__item">
+                    <a href="#" class="sidebar-menu__link" rel="noreferrer noopener">
+                        <span class="icon-customers sidebar-menu__icon"></span>
+                        <span class="sidebar-menu__link-text">Costomers</span>
+                    </a>
+                </li>
+                <li class="sidebar-menu__item">
+                    <a href="#" class="sidebar-menu__link" rel="noreferrer noopener">
+                        <span class="icon-products sidebar-menu__icon"></span>
+                        <span class="sidebar-menu__link-text">Products</span>
+                    </a>
+                </li>
+                <li class="sidebar-menu__item">
+                    <a href="#" class="sidebar-menu__link" rel="noreferrer noopener">
+                        <span class="icon-account sidebar-menu__icon"></span>
+                        <span class="sidebar-menu__link-text">Account</span>
+                    </a>
+                </li>
+                <li class="sidebar-menu__item">
+                    <a href="#" class="sidebar-menu__link" rel="noreferrer noopener">
+                        <span class="icon-settings sidebar-menu__icon"></span>
+                        <span class="sidebar-menu__link-text">Settings</span>
+                    </a>
+                </li>
+                <li class="sidebar-menu__item">
+                    <a href="#" class="sidebar-menu__link" rel="noreferrer noopener">
+                        <span class="icon-login sidebar-menu__icon"></span>
+                        <span class="sidebar-menu__link-text">Login</span>
+                    </a>
+                </li>
+                <li class="sidebar-menu__item">
+                    <a href="#" class="sidebar-menu__link" rel="noreferrer noopener">
+                        <span class="icon-register sidebar-menu__icon"></span>
+                        <span class="sidebar-menu__link-text">Register</span>
+                    </a>
+                </li>
+                <li class="sidebar-menu__item">
+                    <a href="#" class="sidebar-menu__link" rel="noreferrer noopener">
+                        <span class="icon-error sidebar-menu__icon"></span>
+                        <span class="sidebar-menu__link-text">Error</span>
+                    </a>
+                </li>
+            </ul>
+            <div class="pro">
+                <div class="pro__title">Need more features?</div>
+                <div class="pro__subtitle">Check out our Pro solution.</div>
+                <a class="button pro__button button--green" href="#">
+                    Buy Pro
+                    <span class="icon-buy-pro pro__icon"></span>
+                </a> 
+            </div>
+        </aside>
+        <!-- end sidebar -->
+        <div class="customers">
+            <header class="header">
+                <nav class="header-nav">
+                    <a class="header-nav__link" href="#" rel="noreferrer noopener">
+                        <img class="header-nav__icon" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjIiIGhlaWdodD0iMTgiIHZpZXdCb3g9IjAgMCAyMiAxOCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTkuODAwMTkgNC4yQzkuODAwMTkgNS4xNTQ3OCA5LjQyMDkxIDYuMDcwNDUgOC43NDU3OCA2Ljc0NTU5QzguMDcwNjUgNy40MjA3MiA3LjE1NDk3IDcuOCA2LjIwMDE5IDcuOEM1LjI0NTQyIDcuOCA0LjMyOTc0IDcuNDIwNzIgMy42NTQ2MSA2Ljc0NTU5QzIuOTc5NDggNi4wNzA0NSAyLjYwMDIgNS4xNTQ3OCAyLjYwMDIgNC4yQzIuNjAwMiAzLjI0NTIyIDIuOTc5NDggMi4zMjk1NSAzLjY1NDYxIDEuNjU0NDJDNC4zMjk3NCAwLjk3OTI4NSA1LjI0NTQyIDAuNiA2LjIwMDE5IDAuNkM3LjE1NDk3IDAuNiA4LjA3MDY1IDAuOTc5Mjg1IDguNzQ1NzggMS42NTQ0MkM5LjQyMDkxIDIuMzI5NTUgOS44MDAxOSAzLjI0NTIyIDkuODAwMTkgNC4yVjQuMlpNMTkuNDAwMiA0LjJDMTkuNDAwMiA0LjY3Mjc2IDE5LjMwNzEgNS4xNDA4OSAxOS4xMjYyIDUuNTc3NjZDMTguOTQ1MiA2LjAxNDQzIDE4LjY4MDEgNi40MTEyOSAxOC4zNDU4IDYuNzQ1NTlDMTguMDExNSA3LjA3OTg4IDE3LjYxNDYgNy4zNDUwNSAxNy4xNzc5IDcuNTI1OTdDMTYuNzQxMSA3LjcwNjg4IDE2LjI3MyA3LjggMTUuODAwMiA3LjhDMTUuMzI3NCA3LjggMTQuODU5MyA3LjcwNjg4IDE0LjQyMjUgNy41MjU5N0MxMy45ODU4IDcuMzQ1MDUgMTMuNTg4OSA3LjA3OTg4IDEzLjI1NDYgNi43NDU1OUMxMi45MjAzIDYuNDExMjkgMTIuNjU1MSA2LjAxNDQzIDEyLjQ3NDIgNS41Nzc2NkMxMi4yOTMzIDUuMTQwODkgMTIuMjAwMiA0LjY3Mjc2IDEyLjIwMDIgNC4yQzEyLjIwMDIgMy4yNDUyMiAxMi41Nzk1IDIuMzI5NTUgMTMuMjU0NiAxLjY1NDQyQzEzLjkyOTcgMC45NzkyODUgMTQuODQ1NCAwLjYgMTUuODAwMiAwLjZDMTYuNzU1IDAuNiAxNy42NzA2IDAuOTc5Mjg1IDE4LjM0NTggMS42NTQ0MkMxOS4wMjA5IDIuMzI5NTUgMTkuNDAwMiAzLjI0NTIyIDE5LjQwMDIgNC4yVjQuMlpNMTQuNTE2MiAxNy40QzE0LjU3MTQgMTcuMDA3NiAxNC42MDAyIDE2LjYwOCAxNC42MDAyIDE2LjJDMTQuNjAzIDE0LjMxNDYgMTMuOTY4NyAxMi40ODM2IDEyLjgwMDIgMTEuMDA0QzEzLjcxMjMgMTAuNDc3NCAxNC43NDY5IDEwLjIwMDIgMTUuODAwMiAxMC4yMDAyQzE2Ljg1MzQgMTAuMjAwMSAxNy44ODggMTAuNDc3NCAxOC44MDAxIDExLjAwNEMxOS43MTIyIDExLjUzMDYgMjAuNDY5NyAxMi4yODggMjAuOTk2MyAxMy4yMDAxQzIxLjUyMjkgMTQuMTEyMSAyMS44MDAyIDE1LjE0NjggMjEuODAwMiAxNi4yVjE3LjRIMTQuNTE2MlpNNi4yMDAxOSAxMC4yQzcuNzkxNDkgMTAuMiA5LjMxNzYyIDEwLjgzMjEgMTAuNDQyOCAxMS45NTc0QzExLjU2ODEgMTMuMDgyNiAxMi4yMDAyIDE0LjYwODcgMTIuMjAwMiAxNi4yVjE3LjRIMC4yMDAxOTVWMTYuMkMwLjIwMDE5NSAxNC42MDg3IDAuODMyMzM2IDEzLjA4MjYgMS45NTc1NSAxMS45NTc0QzMuMDgyNzcgMTAuODMyMSA0LjYwODkgMTAuMiA2LjIwMDE5IDEwLjJWMTAuMloiIGZpbGw9IiM2QjcyODAiLz4KPC9zdmc+Cg==" alt="">
+                    </a>
+                    <a class="header-nav__link" href="#" rel="noreferrer noopener">
+                        <img class="header-nav__icon" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTgiIGhlaWdodD0iMjAiIHZpZXdCb3g9IjAgMCAxOCAyMCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTguOTk5ODQgMC40QzcuMDkwMjggMC40IDUuMjU4OTMgMS4xNTg1NyAzLjkwODY3IDIuNTA4ODNDMi41NTg0MSAzLjg1OTA5IDEuNzk5ODQgNS42OTA0NCAxLjc5OTg0IDcuNlYxMS45MDMyTDAuOTUxNDQyIDEyLjc1MTZDMC43ODM2NzEgMTIuOTE5NCAwLjY2OTQyMyAxMy4xMzMyIDAuNjIzMTQyIDEzLjM2NkMwLjU3Njg2MSAxMy41OTg3IDAuNjAwNjI0IDEzLjgzOTkgMC42OTE0MjggMTQuMDU5MkMwLjc4MjIzMiAxNC4yNzg0IDAuOTM2IDE0LjQ2NTggMS4xMzMyOSAxNC41OTc3QzEuMzMwNTggMTQuNzI5NSAxLjU2MjU0IDE0Ljc5OTkgMS43OTk4NCAxNC44SDE2LjE5OThDMTYuNDM3MSAxNC43OTk5IDE2LjY2OTEgMTQuNzI5NSAxNi44NjY0IDE0LjU5NzdDMTcuMDYzNyAxNC40NjU4IDE3LjIxNzUgMTQuMjc4NCAxNy4zMDgzIDE0LjA1OTJDMTcuMzk5MSAxMy44Mzk5IDE3LjQyMjggMTMuNTk4NyAxNy4zNzY1IDEzLjM2NkMxNy4zMzAzIDEzLjEzMzIgMTcuMjE2IDEyLjkxOTQgMTcuMDQ4MiAxMi43NTE2TDE2LjE5OTggMTEuOTAzMlY3LjZDMTYuMTk5OCA1LjY5MDQ0IDE1LjQ0MTMgMy44NTkwOSAxNC4wOTEgMi41MDg4M0MxMi43NDA3IDEuMTU4NTcgMTAuOTA5NCAwLjQgOC45OTk4NCAwLjRaTTguOTk5ODQgMTkuNkM4LjA0NTA2IDE5LjYgNy4xMjkzOSAxOS4yMjA3IDYuNDU0MjYgMTguNTQ1NkM1Ljc3OTEzIDE3Ljg3MDUgNS4zOTk4NCAxNi45NTQ4IDUuMzk5ODQgMTZIMTIuNTk5OEMxMi41OTk4IDE2Ljk1NDggMTIuMjIwNiAxNy44NzA1IDExLjU0NTQgMTguNTQ1NkMxMC44NzAzIDE5LjIyMDcgOS45NTQ2MiAxOS42IDguOTk5ODQgMTkuNloiIGZpbGw9IiM2QjcyODAiLz4KPC9zdmc+Cg==" alt="">
+                    </a>
+                    <a class="avatar header-nav__link" href="#" rel="noreferrer noopener">
+                        <img class="avatar__img" src="assets/Avatar..png" alt="">
+                    </a>
+                </nav>
+            </header>
+            <div class="customers-body">
+                <div class="customers-body__header">
+                    <h4 class="title">Customers</h4>
+                    <form class="customers-form" action="submit">
+                        <div class="customers-form__item">
+                            <label class="customers-form__label" for="import">
+                                <span class="icon-import customers-form__icon"></span>
+                                Import
+                                <input type="file" id="import">
+                                <span class="filename"></span>
+                            </label>
+                        </div>
+                        <div class="customers-form__item">
+                            <label class="customers-form__label" for="export">
+                                <span class="icon-export customers-form__icon"></span>
+                                Export
+                                <input type="file" id="export">
+                                <span class="filename"></span>
+                            </label>
+                        </div>
+                        <button class="button button--blue" type="submit">Add Customers</button>
+                    </form>
+                </div>
+                <div class="search">
+                    <label class="search__label" for="">
+                        <input type="search" value="" placeholder="">
+                    </label>
+                </div>
+                <div class="orders">
+                    <div class="orders__title">
+                        <h6>Latest Orders</h6>
+                    </div>
+                    <div class="orders-content">
+                        <div class="orders-content__top">
+                            <div class="orders-content__title">NAME</div>
+                            <div class="orders-content__title">EMAIL</div>
+                            <div class="orders-content__title">
+                                <span class="icon-location orders-content__icon"></span>
+                                LOCATION
+                            </div>
+                            <div class="orders-content__title">PHONE</div>
+                            <div class="orders-content__title">REGISTRATION DATE</div>
+                        </div>
+                        <div class="orders-content__body">
+                            <div class="order">
+                                <div class="order__item">
+                                    <img class="order__img" src="assets/Avatar..png" alt="">
+                                    <span class="order__name">Ekaterina Tankova</span>
+                                </div>
+                                <div class="order__item">
+                                    <span class="order__email">ekaterina.tankova@devias.io</span>
+                                </div>
+                                <div class="order__item">
+                                    <span class="order__location">Parkersburg, West Virginia, USA</span>
+                                </div>
+                                <div class="order__item">
+                                    <span class="order__phone">304-428-3097</span>
+                                </div>
+                                <div class="order__item">
+                                    <span class="order__date">12/04/2019</span>
+                                </div>
+                            </div>
+                            <div class="order">
+                                <div class="order__item">
+                                    <img class="order__img" src="assets/Avatar..png" alt="">
+                                    <span class="order__name">Ekaterina Tankova</span>
+                                </div>
+                                <div class="order__item">
+                                    <span class="order__email">ekaterina.tankova@devias.io</span>
+                                </div>
+                                <div class="order__item">
+                                    <span class="order__location">Parkersburg, West Virginia, USA</span>
+                                </div>
+                                <div class="order__item">
+                                    <span class="order__phone">304-428-3097</span>
+                                </div>
+                                <div class="order__item">
+                                    <span class="order__date">12/04/2019</span>
+                                </div>
+                            </div>
+                            <div class="order">
+                                <div class="order__item">
+                                    <img class="order__img" src="assets/Avatar..png" alt="">
+                                    <span class="order__name">Ekaterina Tankova</span>
+                                </div>
+                                <div class="order__item">
+                                    <span class="order__email">ekaterina.tankova@devias.io</span>
+                                </div>
+                                <div class="order__item">
+                                    <span class="order__location">Parkersburg, West Virginia, USA</span>
+                                </div>
+                                <div class="order__item">
+                                    <span class="order__phone">304-428-3097</span>
+                                </div>
+                                <div class="order__item">
+                                    <span class="order__date">12/04/2019</span>
+                                </div>
+                            </div>
+                            <div class="order">
+                                <div class="order__item">
+                                    <img class="order__img" src="assets/Avatar..png" alt="">
+                                    <span class="order__name">Ekaterina Tankova</span>
+                                </div>
+                                <div class="order__item">
+                                    <span class="order__email">ekaterina.tankova@devias.io</span>
+                                </div>
+                                <div class="order__item">
+                                    <span class="order__location">Parkersburg, West Virginia, USA</span>
+                                </div>
+                                <div class="order__item">
+                                    <span class="order__phone">304-428-3097</span>
+                                </div>
+                                <div class="order__item">
+                                    <span class="order__date">12/04/2019</span>
+                                </div>
+                            </div>
+                            <div class="order">
+                                <div class="order__item">
+                                    <img class="order__img" src="assets/Avatar..png" alt="">
+                                    <span class="order__name">Ekaterina Tankova</span>
+                                </div>
+                                <div class="order__item">
+                                    <span class="order__email">ekaterina.tankova@devias.io</span>
+                                </div>
+                                <div class="order__item">
+                                    <span class="order__location">Parkersburg, West Virginia, USA</span>
+                                </div>
+                                <div class="order__item">
+                                    <span class="order__phone">304-428-3097</span>
+                                </div>
+                                <div class="order__item">
+                                    <span class="order__date">12/04/2019</span>
+                                </div>
+                            </div>
+                            <div class="order">
+                                <div class="order__item">
+                                    <img class="order__img" src="assets/Avatar..png" alt="">
+                                    <span class="order__name">Ekaterina Tankova</span>
+                                </div>
+                                <div class="order__item">
+                                    <span class="order__email">ekaterina.tankova@devias.io</span>
+                                </div>
+                                <div class="order__item">
+                                    <span class="order__location">Parkersburg, West Virginia, USA</span>
+                                </div>
+                                <div class="order__item">
+                                    <span class="order__phone">304-428-3097</span>
+                                </div>
+                                <div class="order__item">
+                                    <span class="order__date">12/04/2019</span>
+                                </div>
+                            </div> 
+                        </div>
+                        <div class="orders-content__bottom">
+                            <div class="select-row">
+                                <span class="select-row__title">Rows per page:</span>
+                                <div class="select">
+                                    <span class="select__value">10</span>
+                                    <ul class="select__list">
+                                        <li class="select__item">
+                                            1
+                                        </li>
+                                        <li class="select__item">
+                                            3
+                                        </li>
+                                        <li class="select__item">
+                                            5
+                                        </li>
+                                        <li class="select__item">
+                                            7
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="steps">
+                                <span class="steps__show">1-5</span>
+                                <span>of</span>
+                                <span class="steps__all">13</span>
+                            </div>
+                            <div class="conrols">
+                                <button class="controls__btn">
+                                    <span class="icon-prev"></span>
+                                </button>
+                                <button class="controls__btn">
+                                    <span class="icon-next"></span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="customers-footer">
+                    <div class="customers-footer__title">
+                        © Devias Io. 2021
+                    </div>
+                    <div class="customers-footer__subtitle">
+                        Material Kit Free version. For more features and components feel free to check out the <a href="#">pro version</a>.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>

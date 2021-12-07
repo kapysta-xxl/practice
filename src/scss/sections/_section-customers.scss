@@ -1,0 +1,11 @@
+@import './icons';
+@import './sidebar';
+@import './customers';
+
+.section-customers{
+    width: 100%;
+    min-height: 300vh;
+    display: flex;
+    justify-content: space-between;
+    background: #F2F2F2;
+}

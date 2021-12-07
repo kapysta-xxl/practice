@@ -1,0 +1,143 @@
+.sidebar{
+    display: flex;
+    height: 100vh;
+    background: #111827;
+    width: $sb-width;
+    display: flex;
+    flex-direction: column;
+
+    &--sticky{
+        position: sticky;
+        top: 0;
+        left: 0;
+    }
+
+    @media (max-width: 1280px){
+        width: 76px;
+    }
+}
+
+.sidebar-menu{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 24px 16px;
+
+    &__item{
+        width: 100%;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        border-radius: 8px;
+
+        &:hover{
+            background: rgba(255, 255, 255, 0.08);
+
+            .sidebar-menu__icon{
+                color: #10B981;
+                background-color: #10B981;
+            }
+            .sidebar-menu__link-text{
+                color: #10B981;
+            }
+        }
+    }
+
+    &__link:link,
+    &__link:visited,
+    &__link:active{
+        color: #D1D5DB;
+    }
+
+    &__link{
+        width: 100%;
+        height: 100%;
+        display: inline-flex;
+        align-items: center;
+        padding: 0 14px;
+
+        @media (max-width: 1280px){
+            padding: 0 0;
+            justify-content: center;
+        }
+    }
+
+    &__link-text{
+        font-size: 14px;
+        font-family: $sb-inter;
+
+        @media (max-width: 1280px){
+            width: 76px;
+            display: none;
+        }
+    }
+
+    &__icon{
+        color: #9CA3AF;
+        background-color: #9CA3AF;
+        margin-right: 10px;
+
+        @media (max-width: 1280px){
+            margin-right: 0;
+        }
+    }
+}
+
+.pro{
+    margin-top: auto;
+    padding: 24px 16px;
+    border-top: 1px solid #1F2937;
+
+    @media (max-width: 1280px){
+        display: none;
+    }
+
+    &__title{
+        color: #F3F4F6;
+        font-size: 16px;
+        line-height: 28px;
+        text-align: left;
+        font-family: $m-inter;
+    }
+
+    &__subtitle{
+        color: #9CA3AF;
+        font-size: 14px;
+        line-height: 22px;
+        text-align: left;
+        margin-bottom: 16px;
+        font-family: $r-inter;
+    }
+
+    &__button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    &__icon{
+        margin-left: 10px;
+    }
+}
+
+.button{
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 24px;
+    font-family: $sb-inter;
+    color: #fff;
+    text-align: center;
+    border-radius: 8px;
+    padding: 8px 20px;
+
+    &--blue{
+        background: $blue;
+    }
+
+    &--green{
+        background: $green;
+    }
+}
