@@ -21,22 +21,22 @@ ul, li {
 
 @font-face {
   font-family: 'inter-bold';
-  src: url(assets/Inter-Bold..woff) format("woff");
+  src: url(assets/Inter-Bold.woff) format("woff");
   font-weight: 700; }
 
 @font-face {
   font-family: 'inter-semi-bold';
-  src: url(assets/Inter-SemiBold..woff) format("woff");
+  src: url(assets/Inter-SemiBold.woff) format("woff");
   font-weight: 600; }
 
 @font-face {
   font-family: 'inter-regular';
-  src: url(assets/Inter-Regular..woff) format("woff");
+  src: url(assets/Inter-Regular.woff) format("woff");
   font-weight: 400; }
 
 @font-face {
   font-family: 'inter-medium';
-  src: url(assets/Inter-Medium..woff) format("woff");
+  src: url(assets/Inter-Medium.woff) format("woff");
   font-weight: 500; }
 
 .icon-dashboard {
