@@ -308,11 +308,14 @@
     margin-right: 40px;
     display: flex;
     align-items: center;
-    gap: 5px;
     font-size: 12px;
     line-height: 20px;
     color: #111827;
     font-family: $r-inter;
+    
+    span:nth-child(2){
+        margin: 0 5px;
+    }
 }
 
 .controls{
